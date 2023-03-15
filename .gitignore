@@ -132,3 +132,7 @@ dmypy.json
 .DS_Store
 src/data/
 .idea
+
+# Yolo stuff:
+src/yolostuff/yolov5
+src/yolostuff/datasets/vinbigdata/images
