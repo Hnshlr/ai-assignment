@@ -131,3 +131,4 @@ dmypy.json
 # Project
 .DS_Store
 src/data/
+.idea
