@@ -1,6 +1,7 @@
 # IMPORTS=
 import cv2
 import pandas as pd
+import torch
 from torch.utils.data import Dataset
 
 class ChestXrayDataset(Dataset):
@@ -24,6 +25,12 @@ class ChestXrayDataset(Dataset):
                 img = self.transform(img)
             self.images.append(img)
             self.labels.append(row["class_id"])
+
+    def split(self, ratio):
+        # Split the dataset into train and validation sets:
+        train_size = int(ratio * len(self))
+        val_size = len(self) - train_size
+        return torch.utils.data.random_split(self, [train_size, val_size])
 
     def __len__(self):
         return len(self.df)
