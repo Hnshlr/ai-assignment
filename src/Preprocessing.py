@@ -11,21 +11,8 @@ def preprocess_data(data_dir, train_df, train_df_sizes):
     train_df = pd.merge(train_df, df_, on=["image_id"])
     # Join the clean dataframe with the train_df_sizes dataframe containing the original image size:
     train_df = pd.merge(train_df, train_df_sizes, on=["image_id"])
-    new_size = 256
-    # Now that the dataframes have been joined, we can calculate the division factor for x and y:
-    train_df["div_factor_x"] = train_df["dim1"] / new_size
-    train_df["div_factor_y"] = train_df["dim0"] / new_size
-    # Finaly, calculate the new x_min, x_max, y_min and y_max coordinates in the 256x256 image:
-    train_df["new_x_min"] = (train_df["x_min"] / train_df["div_factor_x"]).round(0)
-    train_df["new_x_max"] = (train_df["x_max"] / train_df["div_factor_x"]).round(0)
-    train_df["new_y_min"] = (train_df["y_min"] / train_df["div_factor_y"]).round(0)
-    train_df["new_y_max"] = (train_df["y_max"] / train_df["div_factor_y"]).round(0)
-    train_df["x_mid"] = ((train_df["new_x_min"] + train_df["new_x_max"]) / 2).round(0)
-    train_df["y_mid"] = ((train_df["new_y_min"] + train_df["new_y_max"]) / 2).round(0)
-    train_df["width"] = (train_df["new_x_max"] - train_df["new_x_min"]).round(0)
-    train_df["height"] = (train_df["new_y_max"] - train_df["new_y_min"]).round(0)
     # Save in a .csv file
-    train_df.to_csv(data_dir + "train_clean.csv")
+    train_df.to_csv(data_dir + "train_single.csv")
     return train_df
 
 def class_ids_and_names(train_df):
