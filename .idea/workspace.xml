@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f3de0b6-ed4d-457e-97dc-1d6abb038548" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Postprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChestXrayDatasetV2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/yolostuff/datasets/vinbigdata/train.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/yolostuff/datasets/vinbigdata/train_merge.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/yolostuff/datasets/vinbigdata/val.cache" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +29,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2N3QzxLSzQjSSQCvsjIW0Xg8rIR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -82,7 +82,13 @@
       <workItem from="1679060154073" duration="7816000" />
       <workItem from="1679143865119" duration="4911000" />
       <workItem from="1679242871274" duration="6618000" />
-      <workItem from="1679253703271" duration="15000" />
+      <workItem from="1679253703271" duration="6038000" />
+      <workItem from="1679306983421" duration="369000" />
+      <workItem from="1679309457175" duration="623000" />
+      <workItem from="1679331564198" duration="26000" />
+      <workItem from="1679577438241" duration="9676000" />
+      <workItem from="1679612219141" duration="826000" />
+      <workItem from="1679758587809" duration="4176000" />
     </task>
     <servers />
   </component>
@@ -99,5 +105,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
