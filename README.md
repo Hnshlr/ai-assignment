@@ -16,3 +16,11 @@ In the context on this assignment, the usage of machine learning and deep learni
 
 Overall, the use of machine learning and deep learning algorithms in chest radiography is a relatively new and rapidly evolving field, representing the state-of-the-art of our time. As these algorithms continue to improve, they have the potential to revolutionize the field of radiology and improve the accuracy and efficiency of medical imaging diagnoses.
 
+## Results
+
+The results of the model are shown below:
+
+![alt text](https://user-images.githubusercontent.com/74055973/284338833-b636853b-78a8-4fd4-a4e6-adc093ffc095.png)
+
+## Acknowledgements
+
