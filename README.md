@@ -24,3 +24,5 @@ The results of the model are shown below:
 
 ## Acknowledgements
 
+
+The original images of the data that Kaggle made available were in dicom format, and the average size of each image was 3000x3000. As I explained, in order for the training to be possible by the time of the assignment submission, the images had to be converted in a .png format and reduced to 256x256. However, I did not have enough space on my laptop to download, extract and convert the images. Thus I tried to convert them directly from a Kaggle notebook using fairly simple code lines.
